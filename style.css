@@ -315,11 +315,11 @@ section {
 }
 
 .details-container h3 + p {
-  font-size: clamp(0.6rem, 2vw, 1rem); /* Adjusts between 0.8rem and 1rem based on viewport width */
+  font-size: clamp(0.5rem, 2vw, 1rem); /* Adjusts between 0.8rem and 1rem based on viewport width */
 }
 
 .text-container p {
-  font-size: clamp(0.6rem, 2vw, 1rem); /* Adjusts between 0.8rem and 1rem based on viewport width */
+  font-size: clamp(0.5rem, 2vw, 1rem); /* Adjusts between 0.8rem and 1rem based on viewport width */
 }
 
 /* EXPERIENCE SECTION */
