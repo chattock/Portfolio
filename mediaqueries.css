@@ -121,4 +121,10 @@
     margin: 1rem;
     font-size: 1.1rem;
   }
+  #experience .article-container:nth-of-type(1) {
+    margin-top: 3rem;
+    height: auto;
+    max-height: 400px;
+    overflow-y: hidden;
+  }
 }
