@@ -265,6 +265,12 @@ section {
   gap: 1rem;
 }
 
+/* Selects buttons within the third project only */
+.details-container:nth-of-type(3) .btn {
+  width: calc(8rem * 2/3);
+  padding: calc(1rem * 2/3);
+}
+
 /* ABOUT SECTION */
 
 #about {
@@ -410,7 +416,11 @@ article .icon {
 
 .project-title {
   margin: 1rem;
+  font-size: 1.2rem;
   color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .project-btn {
