@@ -156,6 +156,10 @@ section {
   min-height: fit-content;
 }
 
+#projects {
+  height: fit-content;
+}
+
 .section-container {
   display: flex;
 }
@@ -386,6 +390,11 @@ article .icon {
 
 #projects {
   position: relative;
+}
+
+#projects .about-containers {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .color-container {
