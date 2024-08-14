@@ -1,22 +1,4 @@
 @media screen and (max-width: 1400px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
-  }
-  .about-containers {
-    flex-wrap: wrap;
-  }
-  #contact,
-  #projects {
-    height: fit-content;
-  }
-  .pdf-container {
-    max-width: 80%;
-    height: 450px;
-  }
-}
-
-@media screen and (max-width: 1400px) {
   #desktop-nav {
     display: none;
   }
@@ -52,6 +34,21 @@
   .pdf-container {
     min-width: 440px;
     height: auto;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+  .pdf-container {
+    max-width: 80%;
+    height: 450px;
   }
 }
 
