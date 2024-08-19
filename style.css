@@ -265,12 +265,6 @@ section {
   gap: 1rem;
 }
 
-/* Selects buttons within the third project only */
-.details-container:nth-of-type(3) .btn {
-  width: calc(8rem * 2/3);
-  padding: calc(1rem * 2/3);
-}
-
 /* ABOUT SECTION */
 
 #about {
@@ -426,6 +420,12 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+/* Selects buttons within the third project only */
+.details-container:nth-of-type(2) .btn {
+  width: calc(8rem * 2/3);
+  padding: calc(1rem * 2/3);
 }
 
 /* CONTACT */
