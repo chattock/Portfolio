@@ -423,9 +423,13 @@ article .icon {
 }
 
 /* Selects buttons within the third project only */
-.details-container:nth-of-type(2) .btn {
+.details-container:nth-of-type(3) .btn {
   width: calc(8rem * 2/3);
   padding: calc(1rem * 2/3);
+}
+
+.details-container:nth-of-type(6) .btn {
+  width: calc(8rem * 1.1);
 }
 
 /* CONTACT */
