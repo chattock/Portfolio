@@ -428,6 +428,10 @@ article .icon {
   padding: calc(1rem * 2/3);
 }
 
+.details-container:nth-of-type(2) .btn {
+  width: calc(8rem * 2);
+}
+
 .details-container:nth-of-type(4) .btn {
   width: calc(8rem * 2);
 }
