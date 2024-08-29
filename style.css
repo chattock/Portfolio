@@ -436,10 +436,6 @@ article .icon {
   width: calc(8rem * 2);
 }
 
-.details-container:nth-of-type(6) .btn {
-  width: calc(8rem * 2);
-}
-
 /* CONTACT */
 
 #contact {
